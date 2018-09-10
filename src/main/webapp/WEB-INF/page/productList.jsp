@@ -20,8 +20,7 @@
 <script src="<c:url value="/resource/js/productController.js"/>"></script>
 </head>
 <body ng-app="myapp">
-	<div class="container" id="productTable"
-		style="width: 1145px; margin-bottom: 180px;">
+	<div class="container" id="productTable" style="width: 1145px; margin-bottom: 180px;">
 		<h2>Product Management</h2>
 		<p>The List of Products in our Database</p>
 		<table class="table table-hover" id="productList">
@@ -39,6 +38,7 @@
 					<security:authorize access="hasRole('ROLE_USER')" >
 						/Add to Cart
 					</security:authorize> 
+					
 					<!-- views only to the admin --> 
 					<security:authorize access="hasRole('ROLE_ADMIN')">
 						/Edit/Delete

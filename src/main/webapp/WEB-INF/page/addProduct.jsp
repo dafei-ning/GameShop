@@ -17,7 +17,7 @@
 </head>
 <body>
 	<%@ include file="navbar.jsp"%>
-	<div class="container" style="margin-bottom:19px">
+	<div class="container" style="margin-bottom:200px">
 		<h1 class="well">Add Product</h1>
 		<div class="col-lg-12 well">
 			<div class="row">

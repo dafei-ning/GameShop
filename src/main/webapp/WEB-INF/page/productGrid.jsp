@@ -27,7 +27,7 @@
 </head>
 <body>
 <hr>
-<div class="w3-row-padding" style="padding:0px 30px; margin-bottom: 20px">
+<div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
         <img src="<c:url value="/resource/images/products/oppo.jpg"/>" alt="Norway" style="width: 100%"
              class="w3-hover-opacity">
@@ -36,7 +36,7 @@
                 <b>Oppo A37</b>
             </p>
             <p>
-            <ul>
+            <ul class="productgridcontent">
                 <li>Technology - GSM/HSPA/LTE</li>
                 <li>Resolution - 720x1280 pixels</li>
                 <li>OS - Android OS, v5.1(Lollipop)</li>
@@ -54,7 +54,7 @@
                 <b>Vivo V9</b>
             </p>
             <p>
-            <ul>
+            <ul class="productgridcontent">
                 <li>Technology - GSM/HSPA/LTE</li>
                 <li>Resolution - Android 8.1 pixels</li>
                 <li>OS - Android 8.1</li>
@@ -71,7 +71,7 @@
                 <b>Samsung Galaxy S8</b>
             </p>
             <p>
-            <ul>
+            <ul class="productgridcontent">
                 <li>Technology - GSM/HSPA/LTE</li>
                 <li>Resolution - 2960x1440 pixels</li>
                 <li>OS - Android 7.0</li>
@@ -83,7 +83,7 @@
 </div>
 
 <hr>
-<div class="w3-row-padding" style="padding:0px 30px; margin-bottom: 20px">
+<div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
         <img src="<c:url value="/resource/images/products/pixel.jpg"/>" alt="Norway" style="width: 100%"
              class="w3-hover-opacity">
@@ -92,7 +92,7 @@
                 <b>Google Pixel</b>
             </p>
             <p>
-            <ul>
+            <ul class="productgridcontent">
                 <li>Technology - GSM/HSPA/LTE</li>
                 <li>Resolution - 2880x1440 pixels</li>
                 <li>OS - Android 8.0</li>
@@ -110,7 +110,7 @@
                 <b>iPhoneX</b>
             </p>
             <p>
-            <ul>
+            <ul class="productgridcontent">
                 <li>Technology - GSM/HSPA/LTE</li>
                 <li>Resolution - 2436x1125 pixels</li>
                 <li>OS - iOS 11</li>
@@ -127,7 +127,7 @@
                 <b>Huawei Mate 10</b>
             </p>
             <p>
-            <ul>
+            <ul class="productgridcontent">
                 <li>Technology - GSM/HSPA/LTE</li>
                 <li>Resolution - 1440 x 2560 pixels</li>
                 <li>OS - Android 8.0</li>

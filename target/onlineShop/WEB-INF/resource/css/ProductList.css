@@ -1,7 +1,8 @@
 @CHARSET "ISO-8859-1";
-#productList{
+#productList {
 	background-color: rgba(241,241,241);
+	box-sizing: inherit;
 }
-#productable{
-	
+#productable {
+	box-sizing: inherit;
 }

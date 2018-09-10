@@ -20,12 +20,12 @@
 </head>
 <body>
 	<nav class="navbar navbar-inverse">
-	<div class="container-fluid" style="width: 1145px; margin-bottom: 180px";>
+	<div class="container-fluid">
 
-		<div class="nav navbar">
+		<%-- <div class="nav navbar">
 			<img src="<c:url value="/resource/images/onlineshoplogo.jpg"/>"
 				width="731px" height="160px" alt="logo-image"> </img>
-		</div>
+		</div> --%>
 
 		<div class="collapse navbar-collapse" id="myNavbar">
 

@@ -18,6 +18,8 @@
           href="<c:url value="/resource/css/overall.css"/>">
 </head>
 <body>
+
+<div class="footer-margin" style= "margin-top: 100px;">
 <footer class="footer-distributed">
     <div class="footer-left">
 
@@ -28,8 +30,10 @@
         </p>
 
         <p>Created by Dafei Ning &copy; 2018</p>
+        
     </div>
 
 </footer>
+</div>
 </body>
 </html>

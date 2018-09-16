@@ -4,12 +4,14 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>ShoppingWebSite</title>
-<link rel="icon" type="image/x-icon" href="<c:url value="/resource/images/favicon.png"/>" />
+<title>Gameshop | Games, Consoles, Friends</title>
+<link rel="icon" type="image/x-icon" href="<c:url value="/resource/images/favi.png"/>" />
 </head>
 <body>
 	<%@ include file="WEB-INF/page/navbar.jsp"%>
 	<%@ include file="WEB-INF/page/slider.jsp"%>
+	<%@ include file="WEB-INF/page/ads.jsp"%>
+	<hr>
 	<%@ include file="WEB-INF/page/productGrid.jsp"%>
 	<%@ include file="WEB-INF/page/footer.jsp"%>
 </body>

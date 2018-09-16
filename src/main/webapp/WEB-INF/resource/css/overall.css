@@ -4,7 +4,7 @@ html, body {
 /* Slider */
 .carousel-inner>.item>a>img, .carousel-inner>.item>img{
 	line-height: 1;
-	height: 400px;
+	height: 480px;
 	width: 1200px;
 }
 .container{
@@ -12,19 +12,20 @@ html, body {
 	padding-right: 0px;
 	padding-left: 0px;
 	padding-bottom: 0px;
-	
-	width:1200px;
-}
-
-.jumbotron{
-	background-color: rgb(255, 255, 255);
-	margin-bottom:0px;
-	padding-top:0px;
-	padding-bottom:0px;
+	height: 480px;
 	width:1200px;
 	margin: 0 auto;
 }
 
+.jumbotron{
+	background-color: #ff40ff255255255;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 50px;
+	width:1200px;
+	margin: 0 auto;
+	background-color: #fff;
+}
 
 
 
@@ -45,9 +46,9 @@ html, body {
 	margin-left: -10px;
 }
 .container-fluid{
-	padding-right: 23px;
+	padding-right: 0px;
 	padding-left: 0px;
-	padding-bottom: 15px;
+	padding-bottom: 0px;
 }
 .navbar{
 	min-height: 49px;
@@ -66,28 +67,60 @@ html, body {
 
 .navbar-inverse .navbar-nav>li>a {
     color: #000000;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+#myNavbar {
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 /* Product Grid */
 
 .w3-row-padding {
-	padding-left: 0;
-	padding-right: 0;
-	padding-top: 50px; 
-	padding-bottom: 50px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
 	width:1200px; 
 	margin: 0 auto; 
-	margin-bottom: 20px
+	margin-bottom: 0px
 }
 
 .w3-container {
 	padding-top: 40px; 
-	padding-left: 0;
-	padding-right: 0;
+	padding-left: 7px;
+	padding-right: 7px;
 }
-
 .productgridcontent {
 	padding-left: 20px;
+}
+
+.w3-col.l4, .w3-third {
+    width: 20%;
+}
+
+#gameCate {
+	padding-bottom: 30px; 
+}
+
+.w3-hover-opacity {
+	padding: 0 10px;
+	
+	height:280px;
+}
+
+
+/* ads */
+
+.ads {
+	margin-top: 50px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 20px;
+	width:1200px;
+	margin: 0 auto;
 }
 
 
@@ -99,9 +132,8 @@ html, body {
 	width: 100%;
 	text-align: left;
 	font: normal 16px sans-serif;
-
 	padding: 2px 15px;
-	margin-top: -19px;
+	margin-top: 300px;
 	height: 180px;
 }
 
@@ -153,6 +185,11 @@ html, body {
 	left: 0;
 	/* position: absolute; */
 	right: 0;
+}
+
+
+.footer-margin {
+	margin-top: 100px;
 }
 
 @media (max-width: 600px) {

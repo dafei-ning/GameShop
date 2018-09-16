@@ -10,7 +10,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Register Here</title>
-<link rel="icon" type="image/x-icon" href="<c:url value="/resource/images/favicon.png"/>" />
+<link rel="icon" type="image/x-icon" href="<c:url value="/resource/images/favi.png"/>" />
 <link rel="stylesheet" href="<c:url value="/resource/bootstrap/css/bootstrap.min.css"/>">
 <script src="<c:url value="/resource/js/jquery.js"/>"></script>
 <script src="<c:url value="/resource/bootstrap/js/bootstrap.min.js"/>"></script>

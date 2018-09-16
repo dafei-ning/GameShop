@@ -11,52 +11,52 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Products</title>
-<link rel="icon" type="image/x-icon" href="<c:url value="/resource/images/favicon.png"/>" />
+<link rel="icon" type="image/x-icon" href="<c:url value="/resource/images/favi.png"/>" />
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 <script src="<c:url value="/resource/js/productController.js"/>"></script>
 </head>
 <body>
 	<div ng-app="myapp">
-		<div class="container" style="width: 829px">
-			<h2>Product Details</h2>
-			<p>Details of the Product</p>
+		<div class="container" style="width: 600px;">
+			<h2>Details</h2>
+			<p>Details of the Game</p>
 			<table class="table table-bordered" id="prod">
 				<tbody>
 					<tr>
-						<td>Prodcut Image</td>
+						<td>Shortcut</td>
 						<td><img src="/products/${product.id}.jpg"
-							width="40%" alt="${product.productName}" /></td>
+							width="100%" alt="${product.productName}" /></td>
 					</tr>
 					<tr>
-						<td>Prodcut ID</td>
+						<td>ID</td>
 						<td>${product.id}</td>
 					</tr>
 					<tr>
-						<td>Product Name</td>
+						<td>Name</td>
 						<td>${product.productName}</td>
 					</tr>
 					<tr>
-						<td>Product Category</td>
+						<td>Console</td>
 						<td>${product.productCategory}</td>
 					</tr>
 					<tr>
-						<td>Product Description</td>
+						<td>Description</td>
 						<td>${product.productDescription}</td>
 					</tr>
 					<tr>
-						<td>Product Manufacturer</td>
+						<td>Genre</td>
 						<td>${product.productManufacturer}</td>
 					</tr>
 					<tr>
-						<td>Product Price</td>
+						<td>Price</td>
 						<td>${product.productPrice}</td>
 					</tr>
 					<tr>
-						<td>Stock Available</td>
+						<td>In Stock</td>
 						<td>${product.unitStock}</td>
 					</tr>
 					<tr>
-						<td>Add to Cart:</td>
+						<td>Add to cart:</td>
 						<td><c:url value="/cart/add/${product.id}"
 								var="addcart"></c:url>
 							<div ng-controller="myController">

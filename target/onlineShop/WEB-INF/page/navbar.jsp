@@ -9,7 +9,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link rel="icon" type="image/x-icon"
-	href="<c:url value="/resource/images/favicon.png"/>" />
+	href="<c:url value="/resource/images/favi.png"/>" />
 <link rel="stylesheet"
 	href="<c:url value="/resource/bootstrap/css/bootstrap.min.css"/>">
 <script src="<c:url value="/resource/js/jquery.js"/>"></script>
@@ -22,26 +22,27 @@
 	<nav class="navbar navbar-inverse">
 	<div class="container-fluid">
 
-		<%-- <div class="nav navbar">
-			<img src="<c:url value="/resource/images/onlineshoplogo.jpg"/>"
-				width="731px" height="160px" alt="logo-image"> </img>
-		</div> --%>
 
 		<div class="collapse navbar-collapse" id="myNavbar">
 
-			<ul class="nav navbar-nav">
-				<li><img src="<c:url value="/resource/images/onlineshoplogo.jpg"/>"
-					width="200px" height="45px" alt="logo-image">
-				</img></li>
-				
-				<li><a href=" <c:url value="/index" />">Home</a></li>
+			<ul class="nav navbar-nav" style="vertical-align: middle">
+				<li><img src=<c:url value="/resource/images/gameshopicon.png"/>
+					width="150px" height="34.5px" alt="logo-image"> </img></li>
+
+				<li><a href=" <c:url value="/index" />">Home <span
+						class="glyphicon glyphicon-menu-down"></span>
+				</a><i class="icon-angle-down"></i></li>
 				<li><a href=" <c:url value="/getAllProducts" />">Product
-						List</a></li>
-				<li><a href=" <c:url value="/aboutus" />">About</a></li>
+						List <span class="glyphicon glyphicon-menu-down"></span>
+				</a><i class="icon-angle-down"></i></li>
+				<li><a href=" <c:url value="/aboutus" />">About <span
+						class="glyphicon glyphicon-menu-down"></span>
+				</a><i class="icon-angle-down"></i></li>
 				<!-- Only admin can view this link -->
 				<security:authorize access="hasRole('ROLE_ADMIN')">
 					<li><a href=" <c:url value="/admin/product/addProduct" />">Add
-							Product</a></li>
+							Product <span class="glyphicon glyphicon-menu-down"></span>
+					</a><i class="icon-angle-down"></i></li>
 				</security:authorize>
 			</ul>
 
@@ -49,7 +50,7 @@
 				<c:if test="${!empty pageContext.request.userPrincipal.name}">
 					<li><a href="<c:url value="/index" />"><span
 							class="glyphicon glyphicon-shopping-user"></span>Welcome
-							${pageContext.request.userPrincipal.name} </a></li>
+							to the Dafei Ning Gameshop! </a></li>
 					<security:authorize access="hasRole('ROLE_USER')">
 						<li><a href="<c:url value="/cart/getCartById" />"><span
 								class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>

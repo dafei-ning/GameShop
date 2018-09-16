@@ -18,13 +18,13 @@
         <section>
             <div class="jumbotron">
                 <div class="container">
-                    <h1>Thank you for your business!</h1>
+                    <h3>Thank you for shopping with Dafei Ning Gameshop!</h3>
                 </div>
             </div>
         </section>
         <section class="container" style="margin-bottom: 30px;">
             <p style="text-align: center;">
-                <a href="<spring:url value="/" />" class="btn btn-default">OK</a>
+                <a href="<spring:url value="/" />" class="btn btn-default">Return back</a>
             </p>
         </section>
     </div>

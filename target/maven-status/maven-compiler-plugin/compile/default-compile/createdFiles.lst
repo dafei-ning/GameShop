@@ -25,6 +25,7 @@ onlineShop/controller/HomePageController.class
 onlineShop/service/ProductServiceImpl.class
 onlineShop/model/Cart.class
 onlineShop/model/Customer.class
+onlineShop/SecurityConfig.class
 onlineShop/dao/CartItemDaoImpl.class
 onlineShop/dao/CartDaoImpl.class
 onlineShop/model/Authorities.class

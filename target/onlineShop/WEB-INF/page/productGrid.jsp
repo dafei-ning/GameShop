@@ -1,8 +1,6 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-         pageEncoding="ISO-8859-1" %>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="security"
-           uri="http://www.springframework.org/security/tags" %>
+<%@ taglib prefix="security" uri="http://www.springframework.org/security/tags" %>
 <%@ page isELIgnored="false" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -26,117 +24,285 @@
     </style>
 </head>
 <body>
-<hr>
-<div class="w3-row-padding" style="padding:0px 30px; margin-bottom: 20px">
-    <div class="w3-third w3-container w3-margin-bottom">
-        <img src="<c:url value="/resource/images/products/oppo.jpg"/>" alt="Norway" style="width: 100%"
-             class="w3-hover-opacity">
-        <div class="w3-container w3-white">
-            <p>
-                <b>Oppo A37</b>
-            </p>
-            <p>
-            <ul>
-                <li>Technology - GSM/HSPA/LTE</li>
-                <li>Resolution - 720x1280 pixels</li>
-                <li>OS - Android OS, v5.1(Lollipop)</li>
-                <li>Price - 3000.00</li>
-            </ul>
-            </p>
-        </div>
-    </div>
 
+<div class="w3-row-padding switchgames">
+<div id ="gameCate">
+<h3>Xbox games</h3>
+</div>
     <div class="w3-third w3-container w3-margin-bottom">
-        <img src="<c:url value="/resource/images/products/vivo.jpg"/>" alt="Norway" style="width: 100%"
+        <img src="<c:url value="/resource/images/Gamefiles/1.jpg"/>" alt="Norway" style="width: 100%"
              class="w3-hover-opacity">
         <div class="w3-container w3-white">
             <p>
-                <b>Vivo V9</b>
+                <b>The Witcher 3: Wild Hunt</b>
             </p>
             <p>
-            <ul>
-                <li>Technology - GSM/HSPA/LTE</li>
-                <li>Resolution - Android 8.1 pixels</li>
-                <li>OS - Android 8.1</li>
-                <li>Price - $349.00</li>
+            <ul class="productgridcontent">
+                <li>$39.99+</li>
+                <li>CD PROJEKT SA</li>
+                <li>Action & Adventure, Role Playing</li>
+                <li>MATURE 17+</li>
             </ul>
             </p>
         </div>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
-        <img src="<c:url value="/resource/images/products/samsung.jpg"/>" alt="Norway" style="width: 100%"
+        <img src="<c:url value="/resource/images/Gamefiles/2.jpg"/>" alt="NoPic" style="width: 100%"
              class="w3-hover-opacity">
         <div class="w3-container w3-white">
             <p>
-                <b>Samsung Galaxy S8</b>
+                <b>Rise Of The Tomb Raider</b>
             </p>
             <p>
-            <ul>
-                <li>Technology - GSM/HSPA/LTE</li>
-                <li>Resolution - 2960x1440 pixels</li>
-                <li>OS - Android 7.0</li>
-                <li>Price - $549.00</li>
+            <ul class="productgridcontent">
+                <li>$59.99+</li>
+                <li>Square Enix Ltd</li>
+                <li>Action & Adventure</li>
+                <li>ESRB: MATURE 17+</li>
+            </ul>
+            </p>
+        </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+        <img src="<c:url value="/resource/images/Gamefiles/7.jpg"/>" alt="Norway" style="width: 100%"
+             class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+            <p>
+                <b>Overcooked: Gourmet Edition</b>
+            </p>
+            <p>
+            <ul class="productgridcontent">
+                <li>$21.49+</li>
+                <li>Team17 Digital Ltd.</li>
+                <li>Family & kids, Strategy, Simulation</li>
+                <li>ESRB: Everyone</li>
+            </ul>
+            </p>
+        </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+        <img src="<c:url value="/resource/images/Gamefiles/8.jpg"/>" alt="Norway" style="width: 100%"
+             class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+            <p>
+                <b>Don't Starve: Giant Edition</b>
+            </p>
+            <p>
+            <ul class="productgridcontent">
+                <li>$14.99+</li>
+                <li>Klei Entertainment</li>
+                <li>Action & Adventure</li>
+                <li>ESRB: TEEN</li>
+            </ul>
+            </p>
+        </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+        <img src="<c:url value="/resource/images/Gamefiles/10.jpg"/>" alt="Norway" style="width: 100%"
+             class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+            <p>
+                <b>Gears Of War 4</b>
+            </p>
+            <p>
+            <ul class="productgridcontent">
+                <li>$39.99+</li>
+                <li>Microsoft Studios</li>
+                <li>Shooter</li>
+                <li>ESRB: MATURE 17+</li>
             </ul>
             </p>
         </div>
     </div>
 </div>
 
-<hr>
-<div class="w3-row-padding" style="padding:0px 30px; margin-bottom: 20px">
+
+
+<div class="w3-row-padding xboxgames">
+<div id ="gameCate">
+<h3>PS4 games</h3>
+</div>
     <div class="w3-third w3-container w3-margin-bottom">
-        <img src="<c:url value="/resource/images/products/pixel.jpg"/>" alt="Norway" style="width: 100%"
+        <img src="<c:url value="/resource/images/Gamefiles/11.jpg"/>" alt="Norway" style="width: 100%"
              class="w3-hover-opacity">
         <div class="w3-container w3-white">
             <p>
-                <b>Google Pixel</b>
+                <b>Assassin's Creed: The Ezio Collection</b>
             </p>
             <p>
-            <ul>
-                <li>Technology - GSM/HSPA/LTE</li>
-                <li>Resolution - 2880x1440 pixels</li>
-                <li>OS - Android 8.0</li>
-                <li>Price - $649.00</li>
+            <ul class="productgridcontent">
+                <li>$59.99+</li>
+                <li>Ubisoft Entertainment</li>
+                <li>Action & Adventure</li>
+                <li>ESRB: MATURE 17+</li>
             </ul>
             </p>
         </div>
     </div>
 
     <div class="w3-third w3-container w3-margin-bottom">
-        <img src="<c:url value="/resource/images/products/iphonex.jpg"/>" alt="Norway" style="width: 100%"
+        <img src="<c:url value="/resource/images/Gamefiles/17.jpg"/>" alt="Norway" style="width: 100%"
              class="w3-hover-opacity">
         <div class="w3-container w3-white">
             <p>
-                <b>iPhoneX</b>
+                <b>God Of War</b>
             </p>
             <p>
-            <ul>
-                <li>Technology - GSM/HSPA/LTE</li>
-                <li>Resolution - 2436x1125 pixels</li>
-                <li>OS - iOS 11</li>
-                <li>Price - $999.00</li>
+            <ul class="productgridcontent">
+                <li>$59.99+</li>
+                <li>SIEA</li>
+                <li>Action & Adventure</li>
+                <li>ESRB: MATURE 17+</li>
             </ul>
             </p>
         </div>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
-        <img src="<c:url value="/resource/images/products/huawei.jpg"/>" alt="Norway" style="width: 100%"
+        <img src="<c:url value="/resource/images/Gamefiles/20.jpg"/>" alt="Norway" style="width: 100%"
              class="w3-hover-opacity">
         <div class="w3-container w3-white">
             <p>
-                <b>Huawei Mate 10</b>
+                <b>Horizon: Zero Dawn</b>
             </p>
             <p>
-            <ul>
-                <li>Technology - GSM/HSPA/LTE</li>
-                <li>Resolution - 1440 x 2560 pixels</li>
-                <li>OS - Android 8.0</li>
-                <li>Price - $549.00</li>
+            <ul class="productgridcontent">
+                <li>$59.99+</li>
+                <li>Guerrilla Games</li>
+                <li>Action / RPG</li>
+                <li>ESRB: TEEN</li>
             </ul>
             </p>
-
+        </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+        <img src="<c:url value="/resource/images/Gamefiles/12.jpg"/>" alt="Noway" style="width: 100%"
+             class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+            <p>
+                <b>Soul Calibur VI</b>
+            </p>
+            <p>
+            <ul class="productgridcontent">
+                <li>$59.99+</li>
+                <li>ANDAI NAMCO Entertainment Inc.</li>
+                <li>Fighting</li>
+                <li>ESRB: TEEN</li>
+            </ul>
+            </p>
+        </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+        <img src="<c:url value="/resource/images/Gamefiles/14.jpg"/>" alt="Noway" style="width: 100%"
+             class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+            <p>
+                <b>Extinction</b>
+            </p>
+            <p>
+            <ul class="productgridcontent">
+                <li>$59.99+</li>
+                <li>Iron Galaxy</li>
+                <li>TBC</li>
+                <li>ESRB: MATURE 17+</li>
+            </ul>
+            </p>
         </div>
     </div>
 </div>
+
+
+<div class="w3-row-padding xboxgames">
+<div id ="gameCate">
+<h3>Switch games</h3>
+</div>
+    <div class="w3-third w3-container w3-margin-bottom">
+        <img src="<c:url value="/resource/images/Gamefiles/21.jpg"/>" alt="Norway" style="width: 100%"
+             class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+            <p>
+                <b>Octopath Traveler</b>
+            </p>
+            <p>
+            <ul class="productgridcontent">
+                <li>$59.99+</li>
+                <li>Square Enix</li>
+                <li>Role-Playing, Adventure</li>
+                <li>ESRB: TEEN</li>
+            </ul>
+            </p>
+        </div>
+    </div>
+
+    <div class="w3-third w3-container w3-margin-bottom">
+        <img src="<c:url value="/resource/images/Gamefiles/22.jpg"/>" alt="Norway" style="width: 100%"
+             class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+            <p>
+                <b>Super Mario: Odyssey</b>
+            </p>
+            <p>
+            <ul class="productgridcontent">
+                <li>$59.99+</li>
+                <li>Nintendo</li>
+                <li>Action, Platformer</li>
+                <li>ESRB: EVERYONE</li>
+            </ul>
+            </p>
+        </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+        <img src="<c:url value="/resource/images/Gamefiles/23.jpg"/>" alt="Norway" style="width: 100%"
+             class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+            <p>
+                <b>Super Heroes 2</b>
+            </p>
+            <p>
+            <ul class="productgridcontent">
+                <li>$59.99+</li>
+                <li>TT Games</li>
+                <li>Action</li>
+                <li>ESRB: EVERYONE</li>
+            </ul>
+            </p>
+        </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+        <img src="<c:url value="/resource/images/Gamefiles/24.jpg"/>" alt="Norway" style="width: 100%"
+             class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+            <p>
+                <b>Legend Of Zelda: Breath Of The Wild</b>
+            </p>
+            <p>
+            <ul class="productgridcontent">
+                <li>$14.99+</li>
+                <li>Nintendo</li>
+                <li>Adventure, Action, RPG</li>
+                <li>ESRB: EVERYONE</li>
+            </ul>
+            </p>
+        </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+        <img src="<c:url value="/resource/images/Gamefiles/25.jpg"/>" alt="Norway" style="width: 100%"
+             class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+            <p>
+                <b>Wonder Boy</b>
+            </p>
+            <p>
+            <ul class="productgridcontent">
+                <li>$19.99+</li>
+                <li>DotEmu</li>
+                <li>Action, Adventure, Platformer</li>
+                <li>ESRB: EVERYONE</li>
+            </ul>
+            </p>
+        </div>
+    </div>
+</div>
+
+
 </body>
 </html>

@@ -21,6 +21,7 @@
 /Users/dafeining/Development/eclipse-workspace/onlineShop/src/main/java/onlineShop/model/Product.java
 /Users/dafeining/Development/eclipse-workspace/onlineShop/src/main/java/onlineShop/dao/ProductDaoImpl.java
 /Users/dafeining/Development/eclipse-workspace/onlineShop/src/main/java/onlineShop/model/BillingAddress.java
+/Users/dafeining/Development/eclipse-workspace/onlineShop/src/main/java/onlineShop/SecurityConfig.java
 /Users/dafeining/Development/eclipse-workspace/onlineShop/src/main/java/onlineShop/service/CartServiceImpl.java
 /Users/dafeining/Development/eclipse-workspace/onlineShop/src/main/java/onlineShop/controller/RegistrationController.java
 /Users/dafeining/Development/eclipse-workspace/onlineShop/src/main/java/onlineShop/controller/CartItemController.java

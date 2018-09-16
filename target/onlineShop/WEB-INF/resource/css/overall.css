@@ -4,21 +4,29 @@ html, body {
 /* Slider */
 .carousel-inner>.item>a>img, .carousel-inner>.item>img{
 	line-height: 1;
-	height: 350px;
-	width: 800px;
+	height: 480px;
+	width: 1200px;
 }
 .container{
-	margin-top: 5px;
+	margin-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	height: 480px;
+	width:1200px;
+	margin: 0 auto;
 }
-.container{
-	width:1335px;
-}
+
 .jumbotron{
-	background-color: rgb(210, 206, 219);
-	margin-bottom:19px;
-	padding-top:23px;
-	padding-bottom:23px;
+	background-color: #ff40ff255255255;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 50px;
+	width:1200px;
+	margin: 0 auto;
+	background-color: #fff;
 }
+
 
 
 /* Navigation bar */
@@ -38,16 +46,83 @@ html, body {
 	margin-left: -10px;
 }
 .container-fluid{
-	padding-right: 23px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
 }
 .navbar{
 	min-height: 49px;
 	margin-bottom: -4px;
+	width:1200px;
+
 }
 .navbar-inverse{
-	background-color:#211935;
-	border-color:#211935;
+	color: #94547d;
+	padding-top: 10px;
+	background-color:#a64d7a00;
+	border-color:#a64d7a00;
+    /* 相对于父类居中 */
+	margin: 0 auto;
 }
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #000000;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+#myNavbar {
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+/* Product Grid */
+
+.w3-row-padding {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	width:1200px; 
+	margin: 0 auto; 
+	margin-bottom: 0px
+}
+
+.w3-container {
+	padding-top: 40px; 
+	padding-left: 7px;
+	padding-right: 7px;
+}
+.productgridcontent {
+	padding-left: 20px;
+}
+
+.w3-col.l4, .w3-third {
+    width: 20%;
+}
+
+#gameCate {
+	padding-bottom: 30px; 
+}
+
+.w3-hover-opacity {
+	padding: 0 10px;
+	
+	height:280px;
+}
+
+
+/* ads */
+
+.ads {
+	margin-top: 50px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 20px;
+	width:1200px;
+	margin: 0 auto;
+}
+
 
 /* Footer */
 .footer-distributed{
@@ -57,10 +132,9 @@ html, body {
 	width: 100%;
 	text-align: left;
 	font: normal 16px sans-serif;
-
 	padding: 2px 15px;
-	margin-top: -19px;
-	height: 280px;
+	margin-top: 300px;
+	height: 180px;
 }
 
 .footer-distributed .footer-left p{
@@ -107,10 +181,15 @@ html, body {
 
 #footer{
 	bottom: 0;
-	height: 31px;
+	height: 180px;
 	left: 0;
-	position: absolute;
+	/* position: absolute; */
 	right: 0;
+}
+
+
+.footer-margin {
+	margin-top: 100px;
 }
 
 @media (max-width: 600px) {

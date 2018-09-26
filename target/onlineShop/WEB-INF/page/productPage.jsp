@@ -10,7 +10,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Products</title>
+<title>${product.productName} | Details</title>
 <link rel="icon" type="image/x-icon" href="<c:url value="/resource/images/favi.png"/>" />
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 <script src="<c:url value="/resource/js/productController.js"/>"></script>
@@ -18,13 +18,13 @@
 <body>
 	<div ng-app="myapp">
 		<div class="container" style="width: 600px;">
-			<h2>Details</h2>
-			<p>Details of the Game</p>
+			<h2>${product.productName} (${product.productCategory}) </h2>
+			<p>Details about selected game: ${product.productName} in console of ${product.productCategory} </p>
 			<table class="table table-bordered" id="prod">
 				<tbody>
 					<tr>
 						<td>Shortcut</td>
-						<td><img src="/products/${product.id}.jpg"
+						<td><img src="/Games/${product.id}.jpg"
 							width="100%" alt="${product.productName}" /></td>
 					</tr>
 					<tr>

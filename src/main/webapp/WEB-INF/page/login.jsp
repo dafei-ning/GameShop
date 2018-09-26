@@ -25,12 +25,7 @@
 }
 
 @media ( min-width : 992px) .col-md-4 {
-	margin-left
-	:
-	 
-	330
-	px
-	;
+	margin-left: 330px;
 	
         
 }
@@ -38,10 +33,10 @@
 </head>
 <body>
 	<%@ include file="navbar.jsp"%>
-	<div class="container" style="margin-bottom:200px">
-		<div class="col-md-4" style="margin-top: 30px; margin-bottom: 180px;">
+	<div class="container" style="margin-bottom:200px; width: 400px">
+		<div class="col-md-4" style="margin-top: 30px; margin-bottom: 180px; width: 100%">
 			<div class="login-panel panel panel-default"
-				style="margin-top: 30px; margin-bottom: 180px;">
+				style="margin-top: 30px; margin-bottom: 180px">
 				<div class="panel-heading">
 					<h3 class="panel-title" align="center">Sign In</h3>
 				</div>

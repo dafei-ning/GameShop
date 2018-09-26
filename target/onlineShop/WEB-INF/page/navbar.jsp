@@ -32,8 +32,7 @@
 				<li><a href=" <c:url value="/index" />">Home <span
 						class="glyphicon glyphicon-menu-down"></span>
 				</a><i class="icon-angle-down"></i></li>
-				<li><a href=" <c:url value="/getAllProducts" />">Product
-						List <span class="glyphicon glyphicon-menu-down"></span>
+				<li><a href=" <c:url value="/getAllProducts" />">Game List <span class="glyphicon glyphicon-menu-down"></span>
 				</a><i class="icon-angle-down"></i></li>
 				<li><a href=" <c:url value="/aboutus" />">About <span
 						class="glyphicon glyphicon-menu-down"></span>
@@ -41,7 +40,7 @@
 				<!-- Only admin can view this link -->
 				<security:authorize access="hasRole('ROLE_ADMIN')">
 					<li><a href=" <c:url value="/admin/product/addProduct" />">Add
-							Product <span class="glyphicon glyphicon-menu-down"></span>
+							Game <span class="glyphicon glyphicon-menu-down"></span>
 					</a><i class="icon-angle-down"></i></li>
 				</security:authorize>
 			</ul>

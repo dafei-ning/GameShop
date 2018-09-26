@@ -58,9 +58,8 @@ public class ProductController {
 		MultipartFile image = product.getProductImage();
 		if (image != null && !image.isEmpty()) {
 			// 添加之后的路径
-		    Path path = Paths.get("/Users/dafeining/development/eclipse-workspace/onlineShop/products/" + product.getId() + ".jpg");
-			//Path path = Paths.get("C:\\products\\" + product.getId() + ".jpg");
-
+		     Path path = Paths.get("/Users/dafeining/development/eclipse-workspace/onlineShop/products/" + product.getId() + ".jpg");
+		    //Path path = Paths.get("/home/ubuntu/OnlineGameshop/Games/" + product.getId() + ".jpg");
 
 			try {
 				image.transferTo(new File(path.toString()));
@@ -75,8 +74,8 @@ public class ProductController {
 
 	@RequestMapping(value = "/admin/delete/{productId}",  method = RequestMethod.GET)
 	public String deleteProduct(@PathVariable(value = "productId") int productId) {
-		// Path path = Paths.get("/Users/stefan/products/" + productId + ".jpg");
 		Path path = Paths.get("/Users/dafeining/development/eclipse-workspace/onlineShop/products/" + productId + ".jpg");
+		//Path path = Paths.get("/home/ubuntu/OnlineGameshop/Games/" + productId + ".jpg");
 		if (Files.exists(path)) {
 			try {
 				Files.delete(path);

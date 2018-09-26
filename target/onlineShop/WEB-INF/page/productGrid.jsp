@@ -27,7 +27,7 @@
 
 <div class="w3-row-padding switchgames">
 <div id ="gameCate">
-<h3>Xbox games</h3>
+<h3 class="titleText">Xbox games</h3>
 </div>
     <div class="w3-third w3-container w3-margin-bottom">
         <img src="<c:url value="/resource/images/Gamefiles/1.jpg"/>" alt="Norway" style="width: 100%"
@@ -120,7 +120,7 @@
 
 <div class="w3-row-padding xboxgames">
 <div id ="gameCate">
-<h3>PS4 games</h3>
+<h3 class="titleText">PS4 games</h3>
 </div>
     <div class="w3-third w3-container w3-margin-bottom">
         <img src="<c:url value="/resource/images/Gamefiles/11.jpg"/>" alt="Norway" style="width: 100%"
@@ -213,7 +213,7 @@
 
 <div class="w3-row-padding xboxgames">
 <div id ="gameCate">
-<h3>Switch games</h3>
+<h3 class="titleText">Switch games</h3>
 </div>
     <div class="w3-third w3-container w3-margin-bottom">
         <img src="<c:url value="/resource/images/Gamefiles/21.jpg"/>" alt="Norway" style="width: 100%"

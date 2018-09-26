@@ -112,8 +112,8 @@
 	<!-- Product list -->
 	<div class="container" style="margin: 0 auto">
 		<div id="product_list" style="margin: 0 auto; padding-bottom: 200px;">
-			<h2 style="margin-top: 50px">Games Selection</h2>
-			<p>Here we bring fun to you and your friends!</p>
+			<h2 style="margin-top: 50px; color: #505763'">Game List</h2>
+			<p style="color: #505763">Here you can select the games you want and add them to cart before processing to order web flow.</p>
 			<table class="table table-hover" id="productList">
 				<thead>
 					<tr>
@@ -137,7 +137,7 @@
 				<tbody>
 					<c:forEach items="${products}" var="prod">
 						<tr>
-							<td style="width: 125px"><img src="/products/${prod.id}.jpg" style="width: 80px; height: 80px;" /></td>
+							<td style="width: 125px"><img src="/Games/${prod.id}.jpg" style="width: 80px; height: 80px;" /></td>
 							<td style="width: 25px">${prod.id}</td>
 							<td style="width: 50px; margin: 0 auto">${prod.productCategory}</td>
 							<td style="width: 200px">${prod.productName}</td>
@@ -145,16 +145,21 @@
 							<td style="width: 50px">${prod.unitStock}</td>
 							<td style="width: 420px">${prod.productDescription}</td>
 							<td style="width: 80px">${prod.productManufacturer}</td>
-							<td style="width: 200px" ng-controller="myController"><a
+							<td style="width: 200px" ng-controller="myController">
+							<a
 								href="getProductById/${prod.id}" class="btn btn-info"
 								role="button"> <span class="glyphicon glyphicon-info-sign"></span>
-							</a> <!-- view only for user --> <security:authorize
+							</a>  
+							<!-- view only for user -->
+							<security:authorize
 									access="hasRole('ROLE_USER')">
 									<a href="#" ng-click="addToCart(${prod.id})"
 										class="btn btn-primary" style="margin-left: 5px"> <span
-										class="glyphicon glyphicon-shopping-cart"></span>
+										class="glyphicon glyphicon-file"></span>
 									</a>
-								</security:authorize> <!-- view only to the admin --> <security:authorize
+							</security:authorize> 
+							<!-- view only to the admin --> 
+							<security:authorize
 									access="hasRole('ROLE_ADMIN')">
 									<a href="admin/product/editProduct/${prod.id}"
 										class="btn btn-success" style="margin-left: 5px"> <span
@@ -162,7 +167,7 @@
 									<a href="admin/delete/${prod.id}" class="btn btn-danger"
 										style="margin-left: 5px"> <span
 										class="glyphicon glyphicon-trash"></span></a>
-								</security:authorize></td>
+							</security:authorize></td>
 						</tr>
 					</c:forEach>
 				</tbody>

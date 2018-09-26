@@ -5,11 +5,16 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Shopping</title>
+<title>About This GameShop</title>
 <link rel="icon" type="image/x-icon" href="<c:url value="/resource/images/favi.png"/>" />
 </head>
 <body>
  <%@ include file="navbar.jsp"%> 
+ <div> About this website</div>
+ 
+ 
+ 
+ <div> How this website is made</div>
  
  
  <%@ include file="footer.jsp"%> 

@@ -16,11 +16,15 @@
 <script src="<c:url value="/resource/bootstrap/js/bootstrap.min.js"/>"></script>
 <link rel="stylesheet" type="text/css"
 	href="<c:url value="/resource/css/overall.css"/>">
+	
+	<style type="text/css">
+	.navbar-nav:hover {color:#663300}
+	</style>
 
 </head>
 <body>
 	<nav class="navbar navbar-inverse">
-	<div class="container-fluid">
+	<div class="container-fluid" >
 
 
 		<div class="collapse navbar-collapse" id="myNavbar">
@@ -29,20 +33,12 @@
 				<li><img src=<c:url value="/resource/images/gameshopicon.png"/>
 					width="150px" height="34.5px" alt="logo-image"> </img></li>
 
-				<li><a href=" <c:url value="/index" />">Home <span
-						class="glyphicon glyphicon-menu-down"></span>
-				</a><i class="icon-angle-down"></i></li>
-				<li><a href=" <c:url value="/getAllProducts" />">Product
-						List <span class="glyphicon glyphicon-menu-down"></span>
-				</a><i class="icon-angle-down"></i></li>
-				<li><a href=" <c:url value="/aboutus" />">About <span
-						class="glyphicon glyphicon-menu-down"></span>
-				</a><i class="icon-angle-down"></i></li>
+				<li><a href=" <c:url value="/index"/>" :hover="color:#663300">Home <span class="glyphicon glyphicon-menu-down"></span></a><i class="icon-angle-down"></i></li>
+				<li><a href=" <c:url value="/getAllProducts" />">Game List <span class="glyphicon glyphicon-menu-down"></span></a><i class="icon-angle-down"></i></li>
+				<li><a href=" <c:url value="/aboutus" />">About <span class="glyphicon glyphicon-menu-down"></span></a><i class="icon-angle-down"></i></li>
 				<!-- Only admin can view this link -->
 				<security:authorize access="hasRole('ROLE_ADMIN')">
-					<li><a href=" <c:url value="/admin/product/addProduct" />">Add
-							Product <span class="glyphicon glyphicon-menu-down"></span>
-					</a><i class="icon-angle-down"></i></li>
+				<li><a href=" <c:url value="/admin/product/addProduct" />">Add Game <span class="glyphicon glyphicon-menu-down"></span></a><i class="icon-angle-down"></i></li>
 				</security:authorize>
 			</ul>
 

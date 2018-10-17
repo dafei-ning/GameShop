@@ -79,8 +79,9 @@ hr {
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
-	color:#000000;
-	font-weight:bold;
+	color:#525252;
+	text-decoration: underline;
+	
 } 
 
 

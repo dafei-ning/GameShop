@@ -155,7 +155,7 @@
 									access="hasRole('ROLE_USER')">
 									<a href="#" ng-click="addToCart(${prod.id})"
 										class="btn btn-primary" style="margin-left: 5px"> <span
-										class="glyphicon glyphicon-file"></span>
+										class="glyphicon glyphicon-shopping-cart"></span>
 									</a>
 							</security:authorize> 
 							<!-- view only to the admin --> 

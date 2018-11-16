@@ -17,6 +17,9 @@
 <body style="padding: 0px;">
 
 <div class="container" style="margin-bottom: 19px">
+<br>
+<br>
+<br>
     <h1 class="well">Confirm Shipping Address</h1>
     <div class="col-lg-12 well">
         <div class="row">
@@ -79,6 +82,11 @@
         </div>
     </div>
 </div>
+<br>
+<br>
+<br>
+<br>
+<br>
 <div id="footer">
     <jsp:include page="/WEB-INF/page/footer.jsp"></jsp:include>
 </div>

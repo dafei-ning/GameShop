@@ -2,3 +2,8 @@
 /target
 
 # dependencies
+pom.xml
+
+.settings
+.classpath
+.project

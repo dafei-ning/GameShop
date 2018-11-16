@@ -23,10 +23,12 @@
     <div ng-app="myapp" ng-controller="myController"
          style="margin-bottom: 30px">
         <div ng-init="getCart(${cartId})">
-            <br> List of Products Purchased
+            <br> 
+            <h2 style="margin-top: 50px; color: #505763'">Shopping Cart</h2>
+          	<br>
             <div>
                 <a class="btn btn-danger pull-left" ng-click="clearCart()"
-                   style="margin-top: 15px; margin-left: 20px"> <span
+                   style="margin-top: 15px; margin-left: 0px"> <span
                         class="glyphicon glyphicon-remove-sign"> </span>Clear Cart
                 </a>
             </div>
@@ -37,10 +39,11 @@
                         class="glyphicon glyphicon-shipping-cart"> </span>Check Out
                 </a>
             </div>
+            
             <table class="table table-hover" id="productList">
                 <thead>
                 <tr>
-                    <th>Game Name</th>
+                    <th>Game</th>
                     <th>Quantity</th>
                     <th>Price</th>
                     <th>Total Price</th>

@@ -16,6 +16,9 @@
 <body style="padding: 0px;">
 
 	<div class="container" style="margin-bottom: 19px">
+	<br>
+	<br>
+	<br>
 		<center><h1 class="well">Customer Details</h1></center>
 		<div class="col-lg-12 well">
 			<div class="row">

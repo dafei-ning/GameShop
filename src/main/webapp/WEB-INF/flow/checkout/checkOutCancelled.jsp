@@ -6,6 +6,9 @@
 		<section>
 			<div class="jumbotron">
 				<div class="container" >
+				<br>
+				<br>
+				<br>
 					<h1 class="alert alert-danger">Checkout cancelled!</h1>
 					<p>Your checkout process is cancelled! You may continue shopping.</p>
 				</div>
@@ -16,6 +19,9 @@
 			<p>
 				<center><a href="<c:url value="/getAllProducts" />" class="btn btn-default">Go to Products page</a></center>
 			</p>
+			<br>
+			<br>
+			<br>
 		</section>
 	</div>
 	<div id="footer">

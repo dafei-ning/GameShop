@@ -1,2 +1,5 @@
+# maven built 
 /target
-/pom.xml
+
+# dependencies
+*.xml
